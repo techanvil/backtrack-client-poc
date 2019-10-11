@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "required": ["dashboardId", "gridCount"],
+  "properties": {
+    "dashboardId": {
+      "type": "string"
+    },
+    "gridCount": {
+      "type": "number"
+    }
+  }
+}

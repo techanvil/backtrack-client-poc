@@ -1,0 +1,39 @@
+{
+  "name": "backtrack-client-poc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cloudflare/json-hyper-schema": "^0.1.1",
+    "@cloudflare/json-schema-ref-loader": "^0.1.2",
+    "@cloudflare/json-schema-transform": "^0.1.1",
+    "json-beautify": "^1.1.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
+    "react-textarea-autosize": "^7.1.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.1.3"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": ["dashboard", "number", "name", "type"],
+  "properties": {
+    "dashboard": {
+        "$ref": "category/dashboard.schema.json"
+    },
+    "number": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["Window", "Widget", "Ninja"]
+    }
+  }
+}

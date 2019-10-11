@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "required": ["dashboard", "foo", "bar"],
+  "properties": {
+    "dashboard": {
+        "$ref": "category/dashboard.schema.json"
+    },
+    "foo": {
+      "type": "number"
+    },
+    "bar": {
+      "type": "string"
+    }
+  }
+}
