@@ -20,11 +20,11 @@ const importSchemata = requireFunc => {
 
 importSchemata(require.context('./schema', false, /\.schema\.json$/));
 
+console.log('SCHEMATA', schemata);
+
 const event = {
-  dashboard: {
-    dashboardId: 'barr',
-    gridCount: 10
-  },
+  dashboardId: 'barr',
+  gridCount: 10,
   number: 1,
   name: 'fooo',
   type: 'Ninja'
